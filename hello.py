@@ -18,3 +18,4 @@ print("<br>")
 message = "\nBrowser:{}".format(os.environ.get("HTTP_USER_AGENT"))
 print(message)
 print("<br>")
+print(templates.login_page()) # Q4
